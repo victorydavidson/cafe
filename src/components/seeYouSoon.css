@@ -1,0 +1,37 @@
+.see-you-soon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;
+    background-color: rgb(190, 192, 192);
+  }
+  
+  .image-container {
+    flex: 1;
+    height: 100vh; /* Set height to 100% of viewport height */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image cover the entire container */
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 20px; /* Adjust padding as needed */
+  }
+  
+  .see-you-soon-heading {
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    margin-top: 50px; /* Add some spacing between contact information */
+  }
+  
+  .contact-info p {
+    margin: 3px 0; /* Adjust spacing within contact information */
+  }
+  

@@ -1,0 +1,45 @@
+.menu-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #808080;
+  min-height: 100vh;
+  margin-top: 60px;
+  
+}
+
+.menu-background {
+  flex: 2; /* Take up 1/3 of the available space */
+  text-align: left;
+}
+
+.image-container {
+  flex: 1; /* Take up 2/3 of the available space */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Space the images evenly */
+}
+
+.image-item {
+  flex: 1; /* Each image item takes up equal space */
+  text-align: center; /* Center-align the image and caption */
+  margin: 70px;
+  margin-top: auto;
+}
+
+.image-item img {
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.image-item p {
+  margin-top: 1px; /* Add some spacing between the image and caption */
+  cursor: pointer;
+  color: #000; /* Add a pointer cursor to indicate it's clickable */
+  transition: color 0.3s; /* Add a transition effect */
+}
+
+.image-item p:hover {
+  color: #b1c7df; /* Change the text color on hover */
+}

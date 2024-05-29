@@ -1,0 +1,23 @@
+.buttons {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center; }
+
+  
+.button {
+    padding: 10px 20px !important;
+    margin: 5px !important;
+    font-size: 1em !important;
+    font-weight: bold !important; /* Set the font weight */
+    color: #000000 !important; /* Text color */
+    background-color: #ecf0f3 !important; /* Background color */
+    border: none !important;
+    border-radius: 1px !important; /* Rounded corners */
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .button:hover {
+    background-color: #c9e0fa !important; /* Background color on hover */
+  }
+  

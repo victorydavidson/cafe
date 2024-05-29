@@ -1,0 +1,31 @@
+.appetizers-container {
+    background-color: beige;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,56 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #808080;
+    min-height: 100vh;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+  }
+  
+  .image-diagonal {
+    width: 250px;
+    height: 250px;
+    margin: 20px 0;
+    transform: rotate(-11deg);
+  }
+  
+  .about-content {
+    max-width: 600px;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+  }
+  
+  .about-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .book-now-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0a0909;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .book-now-button:hover {
+    background-color: #555;
+  }
+  
