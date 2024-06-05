@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/victorydavidson/cafe/static/css/main.d8ae5904.css",
-    "main.js": "/victorydavidson/cafe/static/js/main.0aa5a522.js",
-    "index.html": "/victorydavidson/cafe/index.html",
-    "main.d8ae5904.css.map": "/victorydavidson/cafe/static/css/main.d8ae5904.css.map",
-    "main.0aa5a522.js.map": "/victorydavidson/cafe/static/js/main.0aa5a522.js.map"
+    "main.css": "/cafe/static/css/main.d8ae5904.css",
+    "main.js": "/cafe/static/js/main.7b66a0cf.js",
+    "index.html": "/cafe/index.html",
+    "main.d8ae5904.css.map": "/cafe/static/css/main.d8ae5904.css.map",
+    "main.7b66a0cf.js.map": "/cafe/static/js/main.7b66a0cf.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ae5904.css",
-    "static/js/main.0aa5a522.js"
+    "static/js/main.7b66a0cf.js"
   ]
 }
