@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import About from './components/About';
@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <BackgroundContainer>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/desserts" element={<Desserts />} />
         </Routes>
       </BackgroundContainer>
-    </HashRouter>
+    </Router>
   );
 };
 
