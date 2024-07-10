@@ -2,7 +2,7 @@
   "name": "cafe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://victorydavidson.github.io/cafe",
+  "homepage": "https://github.com/victorydavidson/cafe.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
