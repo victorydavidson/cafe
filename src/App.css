@@ -1,12 +1,12 @@
 body, html {
   height: 100%;
   margin: 0;
-  
 }
 
 #root {
   height: 100%;
 }
+
 .home-background {
   background-image: url('https://media.istockphoto.com/id/1457979929/photo/abundance-snack-and-fast-food-on-wooden-table-in-restaurant-new-restaurant-menu-and-alcohol.jpg?s=612x612&w=0&k=20&c=oVG_L7VCLnVEbUQxgd-9jnal-HaKRZu00PPoA6G5zUc='); /* Use the actual URL of your image */
   background-size: cover;
@@ -18,6 +18,7 @@ body, html {
   align-items: center;
   justify-content: center;
 }
+
 .menu-background {
   height: 100%;
   display: flex;
@@ -25,7 +26,6 @@ body, html {
   align-items: center;
   justify-content: center;
   background-color: gray;
-   
 }
 
 .about-background {
@@ -38,15 +38,15 @@ body, html {
   align-items: center;
   justify-content: center;
   background-color: gray;
-  
 }
+
 .header {
   margin-top: 1px;
   color: white;
   margin-bottom: 130px;
   text-shadow: 2px 4px 3px rgba(1, 1, 1, 1);
   height: 15vh; /* Set header height to viewport height */
-	display: flex;
+  display: flex;
   justify-content: center; 
 }
 
@@ -57,28 +57,63 @@ body, html {
   margin-top: auto; /* Push the quote to the middle */
   margin-bottom: 10%;
   font-family: 'Acme', sans-serif; /* Change font family */
-	font-weight: bold; /* Change font weight */
+  font-weight: bold; /* Change font weight */
   text-transform: uppercase; /* Convert text to uppercase */
-	letter-spacing: 4px; /* Add letter spacing */
-	/* Apply text-shadow effect for dropping effect */
-	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.8);
+  letter-spacing: 4px; /* Add letter spacing */
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.8);
 }
 
 @keyframes fadeIn {
   0% {
-	  opacity: 0;
-	}
-	50% {
-	  opacity: 1;
-	}
-	100% {
-	  opacity: 0;
-	}
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 .text-white {
   color: #ffffff;
   font-size: x-large;
   font-weight: bolder;
+}
+
+/* Responsive Styles */
+@media (max-width: 375px) { /* Mobile */
+  .animated-quote {
+    font-size: 10px; /* Smaller font size for mobile */
+    margin-bottom: 20%; /* Adjust margin for smaller screens */
+  }
+
+  .header {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    height: auto; /* Allow height to adjust */
+  }
+}
+
+@media (max-width: 425px) { /* Mobile */
+  .animated-quote {
+    font-size: 20px; /* Smaller font size for mobile */
+    margin-bottom: 20%; /* Adjust margin for smaller screens */
+  }
+
+  .header {
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+    height: auto; /* Allow height to adjust */
+  }
+}
+
+@media (max-width: 768px) { /* Tablet */
+  .animated-quote {
+    font-size: 40px; /* Slightly smaller font size for tablets */
+    margin-bottom: 15%; /* Adjust margin */
+  }
+
+  .header {
+    margin-bottom: 70px; /* Adjust margin for tablet screens */
+    height: auto; /* Allow height to adjust */
+  }
 }

@@ -43,3 +43,18 @@
 .image-item p:hover {
   color: #b1c7df; /* Change the text color on hover */
 }
+
+/* Media Query for mobile adjustments */
+@media (max-width: 425px) {
+  .menu-section {
+    margin-top: 30px;
+    padding: 3px; /* Adjust padding */
+  }
+
+  .image-item {
+    margin: 10px; /* Reduce margin */
+    max-width: 80%; /* Allow more space on small screens */
+    max-height: 70%;
+  }
+  
+}

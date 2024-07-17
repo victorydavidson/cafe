@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: #808080;
+    background-color: hsl(0, 0%, 50%);
     min-height: 100vh;
   }
   
@@ -54,3 +54,40 @@
     background-color: #555;
   }
   
+ /* Responsive styles for mobile screens (max-width: 425px) */
+@media (max-width: 425px) {
+  .about-section {
+      flex-direction: column; /* Stack items vertically */
+      padding: 20px; /* Adjust padding */
+      overflow: auto; /* Allows scrolling if needed */
+  }
+
+  .images-container {
+      margin-right: 0; /* Remove margin */
+      margin-bottom: 20px; /* Add some space below the images */
+  }
+
+  .image-diagonal {
+      width: 200px; /* Adjust image size */
+      height: 200px;
+      margin: 10px 0; /* Reduce margin */
+  }
+
+  .about-content {
+      max-width: 100%; /* Allow content to take full width */
+      text-align: center; /* Center text */
+  }
+
+  .about-content h1 {
+      font-size: 2em; /* Smaller heading size */
+  }
+
+  .about-content p {
+      font-size: 1em; /* Smaller paragraph size */
+  }
+
+  .book-now-button {
+      padding: 8px 16px; /* Adjust button padding */
+      font-size: 0.9em; /* Smaller font size */
+  }
+}
