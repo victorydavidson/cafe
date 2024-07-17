@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/victorydavidson.github.io/cafe/static/css/main.d8ae5904.css",
+    "main.js": "/victorydavidson.github.io/cafe/static/js/main.90cefb52.js",
+    "index.html": "/victorydavidson.github.io/cafe/index.html",
+    "main.d8ae5904.css.map": "/victorydavidson.github.io/cafe/static/css/main.d8ae5904.css.map",
+    "main.90cefb52.js.map": "/victorydavidson.github.io/cafe/static/js/main.90cefb52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ae5904.css",
+    "static/js/main.90cefb52.js"
+  ]
+}
